@@ -1,0 +1,29 @@
+{
+    "name": "rp/discord",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["discord"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphael Pelissier",
+            "email": "peliraph@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Discord\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
